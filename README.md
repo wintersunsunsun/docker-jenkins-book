@@ -1,5 +1,10 @@
 # Jenkins assemble apk
 
+```
+docker run -d -p 8080:8080 -p 50000:50000 --name MyJenkins \
+-v [Home Directory]/jenkins_home:/var/jenkins_home a9911131/jenkins-android
+```
+
 ## Build Jenkins
 
 輸入以下指令下載Jenkins，並且啟動：
