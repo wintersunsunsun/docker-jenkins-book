@@ -1,7 +1,3 @@
----
-description: Build Jenkins By Docker.
----
-
 # Jenkins assemble apk
 
 ## Build Jenkins
@@ -13,9 +9,7 @@ $ docker run -d -p 8080:8080 -p 50000:50000 --name MyJenkins \
 -v [Home Directory]/jenkins_home:/var/jenkins_home a9911131/jenkins-android
 ```
 
-{% hint style="info" %}
 啟動後，就可以使用瀏覽器訪問http://localhost:8080
-{% endhint %}
 
 ## Create New Jobs
 

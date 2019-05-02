@@ -22,7 +22,7 @@ description: Jenkins包好apk後會把apk及測試檔丟到AWS Device Farm
 
 ![&#x8A2D;&#x5B9A;&#x53C3;&#x8003;](.gitbook/assets/screen-shot-2019-04-02-at-2.04.10-pm.png)
 
-記得把測試檔也放在專案裡，我是放在專案目錄裡
+記得把測試檔也放在專案專案目錄裡
 
 > \*\*/test\_bundle.zip
 
