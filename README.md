@@ -4,12 +4,12 @@
 
 輸入以下指令下載Jenkins，並且啟動：
 
-```
+```text
 $ docker run -d -p 8080:8080 -p 50000:50000 --name MyJenkins \
 -v [Home Directory]/jenkins_home:/var/jenkins_home a9911131/jenkins-android
 ```
 
-啟動後，就可以使用瀏覽器訪問http://localhost:8080
+啟動後，就可以使用瀏覽器訪問[http://localhost:8080](http://localhost:8080)
 
 ## Create New Jobs
 

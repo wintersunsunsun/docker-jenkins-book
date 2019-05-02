@@ -12,7 +12,7 @@ description: Jenkins包好apk後會把apk及測試檔丟到AWS Device Farm
 
 進入Project Configure
 
-#### 拉到Post-build Actions，點選Add post-build action
+### 拉到Post-build Actions，點選Add post-build action
 
 ![&#x65B0;&#x589E;AWS Device Farm](.gitbook/assets/screen-shot-2019-04-02-at-1.59.54-pm.png)
 
