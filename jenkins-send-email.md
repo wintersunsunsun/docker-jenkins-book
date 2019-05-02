@@ -31,13 +31,25 @@ docker run -d -p 8080:8080 -p 50000:50000 -p 25:25 -p 465:465 --name MyJenkins2 
 
 ## Project Setting
 
+### E-mail Notification
+
+點選進入專案的\[Configure\]，拉到最下面點選\[Add post-build action\] &gt; Email Notification
+
+![](.gitbook/assets/screen-shot-2019-05-02-at-10.50.07-am.png)
+
+設定接收的郵件
+
+![](.gitbook/assets/screen-shot-2019-05-02-at-10.53.05-am.png)
+
+### Editable Email Notification
+
 點選進入專案的\[Configure\]，拉到最下面點選\[Add post-build action\] &gt; Editable Email Notification
 
 ![](.gitbook/assets/screen-shot-2019-05-02-at-10.33.10-am.png)
 
 ![](.gitbook/assets/screen-shot-2019-05-02-at-10.37.12-am.png)
 
-### 設定預設內容
+#### 設定預設內容
 
 設定Default Content，內容參考如下
 
@@ -75,7 +87,7 @@ git Log : ${CHANGES}<br/><hr/>
 變更集: ${JELLY_SCRIPT,template="html"}<br/><hr/>
 ```
 
-### 設定觸發條件
+#### 設定觸發條件
 
 預設只有失敗的時候寄給開發者
 
